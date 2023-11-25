@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationSequence">
+    <operations>
+        <li Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="MineableGold"]/building/mineableYield</xpath>
+            <value>
+                <mineableYield>60</mineableYield>
+            </value>
+        </li>
+        
+        <li Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="MineableComponentsIndustrial"]/building/mineableYield</xpath>
+            <value>
+                <mineableYield>3</mineableYield>
+            </value>
+        </li>
+        
+        <li Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="MineableJade"]/building/mineableYield</xpath>
+            <value>
+                <mineableYield>60</mineableYield>
+            </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="MineableSteel"]/building/mineableYield</xpath>
+            <value>
+                <mineableYield>60</mineableYield>
+            </value>
+        </li>
+        
+        <li Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="MineablePlasteel"]/building/mineableYield</xpath>
+            <value>
+                <mineableYield>60</mineableYield>
+            </value>
+        </li>
+        
+        <li Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="MineableUranium"]/building/mineableYield</xpath>
+            <value>
+                <mineableYield>60</mineableYield>
+            </value>
+        </li>
+        
+        <li Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="MineableSilver"]/building/mineableYield</xpath>
+            <value>
+                <mineableYield>50</mineableYield>
+            </value>
+        </li>
+    </operations>
+  </Operation>
+
+</Patch>
